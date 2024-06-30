@@ -19,12 +19,23 @@ public:
 
         // sol-3
         //  - using a hashSet
-        unordered_set<int> mySet;
+        // unordered_set<int> mySet;
+        // for (auto num : nums) {
+        //     if (mySet.find(num) != mySet.end()) {
+        //         return true;
+        //     }
+        //     mySet.insert(num);
+        // }
+
+        // return false;
+
+        // using a hash table:
+        unordered_map<int, bool> myMap;
+
         for (auto num : nums) {
-            if (mySet.find(num) != mySet.end()) {
-                return true;
-            }
-            mySet.insert(num);
+            if (myMap[num]) return true;
+
+            myMap[num] = 1;
         }
 
         return false;
