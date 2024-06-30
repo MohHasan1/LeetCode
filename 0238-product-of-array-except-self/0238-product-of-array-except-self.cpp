@@ -22,6 +22,9 @@ public:
         ans[0] = suffix[1];
         for (int i = 1; i < n - 1; i++) {
             ans[i] = prefix[i - 1] * suffix[i + 1];
+
+            // 12 3 4 
+            // lets say we are doing 3 = prefix[i-1] * suffix[i+1]
         }
         ans[n - 1] = prefix[n - 2];
 
