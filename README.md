@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MohHasan1/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/MohHasan1/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/MohHasan1/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [1293-three-consecutive-odds](https://github.com/MohHasan1/LeetCode/tree/master/1293-three-consecutive-odds) |
 ## Hash Table
 |  |
 | ------- |
