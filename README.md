@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MohHasan1/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/MohHasan1/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/MohHasan1/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0729-my-calendar-i](https://github.com/MohHasan1/LeetCode/tree/master/0729-my-calendar-i) |
 | [1293-three-consecutive-odds](https://github.com/MohHasan1/LeetCode/tree/master/1293-three-consecutive-odds) |
 ## Hash Table
 |  |
@@ -36,4 +37,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/MohHasan1/LeetCode/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+## Binary Search
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/MohHasan1/LeetCode/tree/master/0729-my-calendar-i) |
+## Design
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/MohHasan1/LeetCode/tree/master/0729-my-calendar-i) |
+## Segment Tree
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/MohHasan1/LeetCode/tree/master/0729-my-calendar-i) |
+## Ordered Set
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/MohHasan1/LeetCode/tree/master/0729-my-calendar-i) |
 <!---LeetCode Topics End-->
