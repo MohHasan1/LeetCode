@@ -25,17 +25,38 @@ public:
         // }
 
         // Hash Map -> sol2:
-        unordered_map<int, int> freq;
+        // unordered_map<int, int> freq;
 
-        // store a single value and its frequecy:
-        for (int num1: nums1){
-            freq[num1] += 1;
-        }
+        // // store a single value and its frequecy:
+        // for (int num1: nums1){
+        //     freq[num1] += 1;
+        // }
 
-        for (int num2:nums2){
-            if (freq[num2] > 0) {
-                freq[num2] -= 1;
-                ans.push_back(num2);
+        // for (int num2:nums2){
+        //     if (freq[num2] > 0) {
+        //         freq[num2] -= 1;
+        //         ans.push_back(num2);
+        //     }
+        // }
+
+        // 2 pointers and sort: -> sol3:
+        /*
+            1122. 22
+        */
+        sort(nums1.begin(), nums1.end());
+        sort(nums2.begin(), nums2.end());
+
+        int left = 0, right = 0;
+
+        while (left < nums1.size() && right < nums2.size()) {
+            if (nums1[left] == nums2[right]) {
+                ans.push_back(nums1[left]);
+                left++;
+                right++;
+            } else if (nums1[left] < nums2[right]) {
+                left++;
+            } else {
+                right++;
             }
         }
 
