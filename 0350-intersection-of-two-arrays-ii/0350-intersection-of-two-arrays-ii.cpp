@@ -9,38 +9,33 @@ public:
             we will use the the smaller array to comapre
         */
 
-        // vector<int> ans;
-        // vector<int> temp;
+        vector<int> ans;
 
-        // // copy nums2
-        // for (int num2 : nums2) {
-        //     temp.push_back(num2);
-        // }
-
-        // // O(n^2)
+        // O(n^2) -> sol1:
+        // vector<int> temp(nums2); // Copy nums2 to temp
         // for (int num1 : nums1) {
-        //     for (int i = 0; i < temp.size(); i++) {
-        //         if (num1 == temp[i]) {
+        //     for (auto it = temp.begin(); it != temp.end(); ++it) {
+        //         if (num1 == *it) {
         //             ans.push_back(num1);
-        //             temp.erase(i);
-        //             break;
+        //             temp.erase(it);
+        //             break; // Exit inner loop once a match is found and
+        //             removed
         //         }
         //     }
         // }
 
-        // return ans;
+        // Hash Map -> sol2:
+        unordered_map<int, int> freq;
 
-        vector<int> ans;
-        vector<int> temp(nums2); // Copy nums2 to temp
+        // store a single value and its frequecy:
+        for (int num1: nums1){
+            freq[num1] += 1;
+        }
 
-        // O(n^2)
-        for (int num1 : nums1) {
-            for (auto it = temp.begin(); it != temp.end(); ++it) {
-                if (num1 == *it) {
-                    ans.push_back(num1);
-                    temp.erase(it);
-                    break; // Exit inner loop once a match is found and removed
-                }
+        for (int num2:nums2){
+            if (freq[num2] > 0) {
+                freq[num2] -= 1;
+                ans.push_back(num2);
             }
         }
 
