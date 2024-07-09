@@ -31,7 +31,7 @@ public:
                 int timeTaken = cusArriveTime + Preptime;
                 int cusWaitTime = timeTaken - cusArriveTime;
                 ans += cusWaitTime;
-                 chefFnishAt = timeTaken;
+                chefFnishAt = timeTaken;
                 cout << cusWaitTime << endl;
             }
         }
