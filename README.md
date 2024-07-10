@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/MohHasan1/LeetCode/tree/master/0001-two-sum) |
+| [0035-search-insert-position](https://github.com/MohHasan1/LeetCode/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/MohHasan1/LeetCode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MohHasan1/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/MohHasan1/LeetCode/tree/master/0217-contains-duplicate) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/MohHasan1/LeetCode/tree/master/0035-search-insert-position) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MohHasan1/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0729-my-calendar-i](https://github.com/MohHasan1/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/MohHasan1/LeetCode/tree/master/0731-my-calendar-ii) |
