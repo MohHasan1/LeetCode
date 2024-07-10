@@ -14,20 +14,38 @@ public:
             main->d1->d21
             deep = 2
         */
-        int deep = 0;
+
+        stack<int> stack;
 
         for (string& log : logs) {
-            if (log == "../" && deep == 0) continue;
-
-            if (log == "./") {
+            if (log == "../" && stack.empty())
                 continue;
-            } else if (log == "../" && deep != 0) {
-                deep--;
+
+            if (log == "../") {
+                stack.pop();
+            } else if (log == "./") {
+                continue;
             } else {
-                deep++;
+                stack.push(1);
             }
         }
 
-        return deep;
+        return stack.size();
+
+        // int deep = 0;
+
+        // for (string& log : logs) {
+        //     if (log == "../" && deep == 0) continue;
+
+        //     if (log == "./") {
+        //         continue;
+        //     } else if (log == "../" && deep != 0) {
+        //         deep--;
+        //     } else {
+        //         deep++;
+        //     }
+        // }
+
+        // return deep;
     }
 };
