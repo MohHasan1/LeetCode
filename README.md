@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/MohHasan1/LeetCode/tree/master/0125-valid-palindrome) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/MohHasan1/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1894-merge-strings-alternately](https://github.com/MohHasan1/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Greedy
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/MohHasan1/LeetCode/tree/master/0125-valid-palindrome) |
 | [0726-number-of-atoms](https://github.com/MohHasan1/LeetCode/tree/master/0726-number-of-atoms) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/MohHasan1/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/MohHasan1/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
