@@ -26,19 +26,15 @@ function validPalindrome(s: string) {
     }
 
     // create 1st str (remove right char)
-    let newStr = s.slice(0, res.start) + s.slice(res.start + 1)
-    console.log(newStr)
-    let isPel = isPalindrome(newStr, res.start, res.end - 1);
-    console.log(isPel)
+    // let newStr = s.slice(0, res.start) + s.slice(res.start + 1)
+    let isPel = isPalindrome(s, res.start + 1, res.end);
     if (isPel.status) {
         return true;
     }
 
 
     // craete 2nd str (remove left char)
-    newStr = s.slice(0, res.end) + s.slice(res.end + 1)
-    // console.log(newStr)
-    isPel = isPalindrome(newStr, res.start, res.end - 1);
+    isPel = isPalindrome(s, res.start, res.end - 1);
     if (isPel.status) {
         return true;
     }
